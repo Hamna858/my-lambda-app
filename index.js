@@ -2,6 +2,6 @@
 exports.handler = async (event) => {
     return {
         statusCode: 200,
-        body: JSON.stringify({ message: "Deployed from GitHub!" }),
+        body: JSON.stringify({ message: "Code pipeline updated!" }),
     };
 };
